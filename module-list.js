@@ -25,6 +25,8 @@
         "bod202102U-3-form-cyrs":                  {url:"$H/m/library/bod202102U-sub-form.html",Table:"bod202102U-3-cyrs",task_name:"bod202102U"},
         "bod202102U-4-data-cyrs":                  {url:"$H/m/library/bod202102U-sub-data.html",Table:"bod202102U-4-cyrs",form_module:"bod202102U-4-form-cyrs",task_name:"bod202102U"},
         "bod202102U-4-form-cyrs":                  {url:"$H/m/library/bod202102U-sub-form.html",Table:"bod202102U-4-cyrs",task_name:"bod202102U"},
+        "bpi-sf-data":                  {url:"$H/m/library/bpi-sf-data.html",Table:"bpi-sf-bod1",form_module:"bpi-sf-form",task_name:"Brief Pain Inventory (Short Form)"},
+        "bpi-sf-form":                  {url:"$H/m/library/bpi-sf-form.html",Table:"bpi-sf-bod1",task_name:"Brief Pain Inventory (Short Form)"},
     }
     for(p in modules){
         $vm.module_list[p]=modules[p];
