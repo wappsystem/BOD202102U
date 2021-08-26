@@ -15,69 +15,38 @@
 									</label>
 								</div>
 								<div class="col-sm-12 col-lg-6">
-									<label class=''><span class=''>Randomisation number from trial</span>
-										<input type=text class=form-control name=Randomisation_number>
+									<label class=''><span class=''>Subject ID</span>
+										<input type=text class=form-control name=Subject_ID>
 									</label>
 								</div>
 							</div>
 							<div class='row px-4'>
-								<div class="form-group col-sm-12 col-lg-4">
-									<div class="questiongroup">
-										<label> Intervention Group</label>
-										<fieldset class="">
-											<label class="radiobuttons ">
-												<input type="radio" name="Intervention_Group" value="1">
-												<span class="checkmark"></span>Surgery</label>
-											<label class="radiobuttons ">
-												<input type="radio" name="Intervention_Group" value="2">
-												<span class="checkmark"></span>EMC </label>
-										</fieldset>
-									</div>
+								<div class="col-sm-12 col-lg-6 ">
+									<label class=''><span class=''>Screening Number</span>
+										<input type=text class=form-control name=Screening_Number>
+									</label>
 								</div>
+								<div class="col-sm-12 col-lg-6">
+									<label class=''><span class=''>Subject Initials</span>
+										<input type=text class=form-control name=Subject_Initials>
+									</label>
+								</div>
+							</div>
 							<div class='row px-4'>
-								<div class="col-sm-12 col-lg-4">
-									<label class=''><span class=''>Initials</span>
-										<input type=text class=form-control name=Initials>
-									</label>
-								</div>
-								<div class="col-sm-12 col-lg-4">
-									<label class=''><span class=''>DOB</span>
-										<input type=date class=form-control name=DOB>
-									</label>
-								</div>
-								<div class="col-sm-12 col-lg-4 ">
+								<div class="col-sm-12 col-lg-6 ">
 									<label class=''><span class=''>Gender</span>
 										<select class=form-control name=Gender>
 											<option value=''>---</option>
 											<option>Male</option>
 											<option>Female</option>
+											<option>Other</option>
 										</select>
 									</label>
 								</div>
-							</div>
-							<div class='row px-4'>
-								<div class="form-group col-sm-12 col-lg-4">
-									<div class="questiongroup">
-										<label>Participant contactable?</label>
-										<fieldset class="">
-											<label class="radiobuttons ">
-												<input type="radio" name="Contactable" value="Y">
-												<span class="checkmark"></span>Yes</label>
-											<label class="radiobuttons ">
-												<input type="radio" name="Contactable" value="N">
-												<span class="checkmark"></span>No </label>
-										</fieldset>
-									</div>
-								</div>
-								<div class="form-group col-sm-12 col-lg-8">
-									<div class="questiongroup ">
-										<fieldset class="">
-											<label><span class="">If ‘No’, give a reason if possible, e.g. participant deceased:
-												</span>
-												<textarea class="form-control" name="Reason_not_contacable"></textarea>
-											</label><br>
-										</fieldset>
-									</div>
+								<div class="col-sm-12 col-lg-6">
+									<label class=''><span class=''>Age</span>
+										<input min=18 max=65 class=form-control name=Age>
+									</label>
 								</div>
 							</div>
 							<div class='row px-4'>
@@ -89,8 +58,7 @@
 								<div class="col-sm-12 col-lg-6">
 								</div>
 							</div>
-<!--
-							<div class='row px-4'>
+							<!--<div class='row px-4'>
 								<div class="col-sm-12 col-lg-6 row_participant__ID">
 									<label class=''><span class=''>Randomisation Number</span>
 										<input type=text class=form-control name=Randomisation_Number readonly placeholder='click here to randomise'>
@@ -101,8 +69,7 @@
 										<input type=text class=form-control name=Randomised_by readonly>
 									</label>
 								</div>
-							</div>
--->							
+							</div>-->
 							<button type="submit" id="submit__ID" class="btn btn-primary btn-lg">Submit</button>
 						</div>
 					</form>
@@ -149,7 +116,8 @@
 			//-------------------------------------
 			m.before_submit = function (data, index) {
 				var I1 = $('#F__ID input[name=Randomisation_Number').val(); if (I1 != '' && I1 != '-') index.I1 = parseInt(I1);
-				if(data.Submitted_by==undefined) data.Submitted_by=$vm.user_name;
+				var nd=new Date()
+				index.I2=nd.getFullYear()+"-"+$vm.pad(nd.getMonth()+1,2)+"-"+$vm.pad(nd.getDate(),2);
 			}
 			//-------------------------------------
 		}

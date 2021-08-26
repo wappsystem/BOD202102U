@@ -8,7 +8,7 @@
                     <div class="col-12">
                         <!-- form start -->
                         <form id="F__ID">
-                            <h3>PITTSBURGH SLEEP QUALITY INDEX</h3>
+                            <h3 id=title__ID></h3>
                             <!-- participant part for all tsak forms -------------------->
                             <div id="participant_div__ID">
                                 <div class="form-group">
@@ -37,7 +37,52 @@
                                     <h4>1. During the past month, what time have you usually gone to bed at night?</h4>
                                     <fieldset class="">
                                         <label><span class="">BED TIME</span>
-                                            <input class="form-control" type="time" name="PSQI1" required>
+                                            <label><span class="">&nbsp;&nbsp;HH</span>
+                                                <select class="form-control"  id="hh__ID" required>
+                                                    <option value=""></option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="00">0</option>
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
+                                                    <option value="08">08</option>
+                                                    <option value="09">09</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                </select>
+                                            </label>
+                                            <label><span class="">&nbsp;&nbsp;MM</span>
+                                                <select class="form-control"  id="mm__ID">
+                                                    <option value="00">00</option>
+                                                    <option value="05">05</option>
+                                                    <option value="10">10</option>
+                                                    <option value="15">15</option>
+                                                    <option value="20">20</option>
+                                                    <option value="25">25</option>
+                                                    <option value="30">30</option>
+                                                    <option value="35">35</option>
+                                                    <option value="40">40</option>
+                                                    <option value="45">45</option>
+                                                    <option value="50">50</option>
+                                                    <option value="55">55</option>
+                                                </select>
+                                            </label>
+                                            <input class="form-control" type="text" name="PSQI1" style='display:none'>
                                         </label><br>
                                     </fieldset>
                                 </div>
@@ -57,7 +102,52 @@
                                     <h4>3. During the past month, what time have you usually gotten up in the morning?</h4>
                                     <fieldset class="">
                                         <label><span class="">GETTING UP TIME</span>
-                                            <input class="form-control" type="time" name="PSQI3" required>
+                                            <label><span class="">&nbsp;&nbsp;HH</span>
+                                                <select class="form-control"  id="hh1__ID" required>
+                                                    <option value=""></option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
+                                                    <option value="08">08</option>
+                                                    <option value="09">09</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="0">00</option>
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                </select>
+                                            </label>
+                                            <label><span class="">&nbsp;&nbsp;MM</span>
+                                                <select class="form-control"  id="mm1__ID">
+                                                    <option value="00">00</option>
+                                                    <option value="05">05</option>
+                                                    <option value="10">10</option>
+                                                    <option value="15">15</option>
+                                                    <option value="20">20</option>
+                                                    <option value="25">25</option>
+                                                    <option value="30">30</option>
+                                                    <option value="35">35</option>
+                                                    <option value="40">40</option>
+                                                    <option value="45">45</option>
+                                                    <option value="50">50</option>
+                                                    <option value="55">55</option>
+                                                </select>
+                                            </label>
+                                            <input class="form-control" type="text" name="PSQI3" style='display:none'>
                                         </label><br>
                                     </fieldset>
                                 </div>
@@ -748,6 +838,14 @@
             var load2=m.load;
             m.load=function(){
                 load2();
+                if(m.input.record!=undefined){
+                    var hh=m.input.record.Data.PSQI1.split(':');
+                    $("#D__ID #hh__ID").val(hh[0]);
+                    $("#D__ID #mm__ID").val(hh[1]);
+                    hh=m.input.record.Data.PSQI3.split(':');
+                    $("#D__ID #hh1__ID").val(hh[0]);
+                    $("#D__ID #mm1__ID").val(hh[1]);
+                }
                 if($("input[name='PSQI5j']").val()!=''){
                     $('#PSQI5ji__ID').prop('required', true);
                     $('#how_often_5__ID').show();
@@ -779,6 +877,30 @@
                     $('#PSQI10d__ID').prop('required', false);
                 }
             }
+            //-- PSQI ---------------------------
+            $("#D__ID #hh__ID").on('change', function () {
+                $("input[name='PSQI1']").val( calc_time())
+            });
+            $("#D__ID #mm__ID").on('change', function () {
+                $("input[name='PSQI1']").val( calc_time())
+            });
+            calc_time=function(){
+                var hh=$('#hh__ID').val();
+                var mm=$('#mm__ID').val();
+                return hh+':'+mm
+            }
+            $("#D__ID #hh1__ID").on('change', function () {
+                $("input[name='PSQI3']").val( calc_time1())
+            });
+            $("#D__ID #mm1__ID").on('change', function () {
+                $("input[name='PSQI3']").val( calc_time1())
+            });
+            calc_time1=function(){
+                var hh=$('#hh1__ID').val();
+                var mm=$('#mm1__ID').val();
+                return hh+':'+mm
+            }
+
             //-------------------------------------
             $("input[name='PSQI5j']").change(function(){
                 if($("input[name='PSQI5j']").val()!=''){
