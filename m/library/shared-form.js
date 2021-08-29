@@ -1,20 +1,15 @@
 //-------------------------------------
-var participant_name=function(record){ if(record.Data.Intervention_Group!=undefined && record.Data.Randomisation_number!=undefined  && record.Data.Randomisation_number!='') return record.Data.Randomisation_number+' - '+record.Data.Intervention_Group; else return $vm.alert("Please enter Randomisation Number and selected an Intervention Group for the Participant ");}
+var participant_name=function(record){ if(record.Data.Screening_Number!=undefined) return record.Data.Screening_Number; else return record.UID;}
 //-------------------------------------
 //auto select particpant
-var part_id1=$vm.module_list['participant-data'].participant_id.field1;
-var part_id2=$vm.module_list['participant-data'].participant_id.field2;
-var part_id3=$vm.module_list['participant-data'].participant_id.field3;
 var autocomplete_req_p={cmd:"find",table:$vm.module_list['participant-data'].Table,options:{},skip:0,limit:10}
 var autocomplete_callback_p=function(items){ $("#F__ID input[name=Participant_uid]").val(items["UID"]);}
 var autocomplete_list_p=function(records){
     var items=[];
     for(var i=0;i<records.length;i++){
         var obj={};
-        if(records[i].Data[part_id1]!= undefined ) obj.label=records[i].Data[part_id1];
+        if(records[i].Data.Screening_Number!= undefined ) obj.label=records[i].Data.Screening_Number;
         else obj.label=records[i].UID;
-        if(records[i].Data[part_id2]!= undefined ) obj.label+=' - '+records[i].Data[part_id2];
-        if(records[i].Data[part_id3]!= undefined ) obj.label+=' - '+records[i].Data[part_id3];
         obj['UID']=records[i].UID;
         items.push(obj);
     }
@@ -44,14 +39,10 @@ m.load=function(){
         $("#F__ID input[name=Participant_uid]").val(m.input.participant_record.UID);
     }
     else if(m.input!=undefined && m.input.record!=undefined){
-        //console.log("Modify")
-        //console.log(JSON.stringify(m.input.record))
-        //console.log(JSON.stringify(m.input.participant_record))
         //modify
     }
     else{
         //new with no parent
-        //console.log("new Child No parent")
     }
     //--------------------------
     var wait2=function(){
@@ -79,9 +70,6 @@ m.before_submit=function(data){
     if($("#F__ID input[name=_status]:checked").val()=='' || $("#F__ID input[name=_status]:checked").val()==undefined)
         data.sysStatus=status_of_data(data);
     else data.sysStatus=$("#F__ID input[name=_status]:checked").val()
-    if($vm.online_questionnaire==1) {
-        data.sysStatus='#FF0000';
-    }
 }
 //-------------------------------------
 var status_of_data=function(data){

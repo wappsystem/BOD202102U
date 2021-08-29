@@ -156,23 +156,33 @@
     border-radius: 50%;
     color:#fff;
 }
-#D__ID .radiobuttons:hover input ~ .checkmark {
+#D__ID .checkmark_wide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 40px;
+    background-color: #C9C9C9;
+    border-radius: 50%;
+    color:#fff;
+}
+#D__ID .radiobuttons:hover input ~ .checkmark, #D__ID .radiobuttons:hover input ~ .checkmark_wide {
     background-color: #506A88;
 }
-#D__ID .radiobuttons input:checked ~ .checkmark {
+#D__ID .radiobuttons input:checked ~ .checkmark, #D__ID .radiobuttons input:checked ~ .checkmark_wide{
     background-color: #EA7859;
 }
-#D__ID .checkmark:after {
+#D__ID .checkmark:after, #D__ID .checkmark_wide:after{
     content: "";
     position: absolute !important;
     display: none;
 }
 /* Show the indicator (dot/circle) when checked */
-#D__ID .radiobuttons input:checked ~ .checkmark:after {
+#D__ID .radiobuttons input:checked ~ .checkmark:after,#D__ID .radiobuttons input:checked ~ .checkmark_wide:after {
     display: block !important;
 }
 /* Style the indicator (dot/circle) */
-#D__ID .container .checkmark:after {
+#D__ID .container .checkmark:after, #D__ID .container .checkmark_wide:after {
     top: 7px;
     left: 7px;
     width: 8px;
@@ -180,7 +190,7 @@
     border-radius: 50%;
     background: white !important;
 }
-#D__ID .container .checkmark.no-dot:after {
+#D__ID .container .checkmark.no-dot:after, #D__ID .container .checkmark_wide.no-dot:after {
     width: 0;
     height: 0;
 }

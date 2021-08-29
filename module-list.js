@@ -6,8 +6,7 @@
         "participant-data":   		        {url:"$H/m/participant/participant-data.html",Table:"bod1-participant",form_module:"participant-form",router:1,
                                                 child_panel:"panel-child",
                                                 questionnaire_setup:"online-questionnaire-setup-bod1",
-                                                online_questionnaire:"online-questionnaire-app-bod1",
-                                                participant_id:{field1:"Randomisation_number",field2:"Intervention_Group"}
+                                                online_questionnaire:"online-questionnaire-app-bod1",                                                
                                             },
         "participant-form":   		        {url:"$H/m/participant/participant-form.html",Table:"bod1-participant"},
 
@@ -28,7 +27,7 @@
         "medical-history-data":                  {url:"$H/m/library/medical-history-data.html",Table:"medical-history-bod1",form_module:"medical-history-form",task_name:"Baseline - Medical History"},
         "medical-history-form":                  {url:"$H/m/library/medical-history-form.html",Table:"medical-history-bod1",task_name:"Baseline - Medical History"},
         "c19-yrs-data":                  {url:"$H/m/library/c19-yrs-data.html",Table:"c19-yrs-bod1",form_module:"c19-yrs-form",task_name:"Screening - COVID-19 Yorkshire Rehabilitation Scale (C19-YRS)"},
-        "c19-yrs-form":                  {url:"$H/m/library/c19-yrs-form.html",Table:"c19-yrs-bod1",task_name:"Screening - COVID-19 Yorkshire Rehabilitation Scale (C19-YRS)",router:1},
+        "c19-yrs-form":                  {url:"$H/m/library/c19-yrs-form.html",Table:"c19-yrs-bod1",task_name:"Screening - COVID-19 Yorkshire Rehabilitation Scale (C19-YRS)"},
 
         "drug-dose-bl-data":                  {url:"$H/m/library/drug-dose-data.html",Table:"drug-dose-bl-bod1",form_module:"drug-dose-bl-form",task_name:"Baseline - Drug dose and details related to their treatment plan"},
         "drug-dose-bl-form":                  {url:"$H/m/library/drug-dose-form.html",Table:"drug-dose-bl-bod1",task_name:"Baseline - Drug dose and details related to their treatment plan"},

@@ -53,15 +53,15 @@
                                     <div class="questiongroup ">
                                         <fieldset class="subquestions">
                                             <label class="radiobuttons">
-                                                <input type="radio" name="Q_1" value="1" required>
+                                                <input type="radio" name="hospital_admission" value="1" required>
                                                 <span class="checkmark"></span>Yes
                                             </label><br>
                                             <label class="radiobuttons">
-                                                <input type="radio" name="Q_1" value="0">
+                                                <input type="radio" name="hospital_admission" value="0">
                                                 <span class="checkmark"></span> No
                                             </label><br>
                                             <label style="width:100%"><span class="">Details:</span>
-                                                <textarea class="form-control" name="text_2" placeholder=""></textarea>
+                                                <textarea class="form-control" name="hospital_admission_details" placeholder=""></textarea>
                                             </label><br>
                                         </fieldset>
                                     </div>
@@ -73,15 +73,15 @@
                                     <div class="questiongroup ">
                                         <fieldset class="subquestions">
                                             <label class="radiobuttons">
-                                                <input type="radio" name="Q_1" value="1" required>
+                                                <input type="radio" name="health_services" value="1" required>
                                                 <span class="checkmark"></span>Yes
                                             </label><br>
                                             <label class="radiobuttons">
-                                                <input type="radio" name="Q_1" value="0">
+                                                <input type="radio" name="health_services" value="0">
                                                 <span class="checkmark"></span> No
                                             </label><br>
                                             <label style="width:100%"><span class="">Details:</span>
-                                                <textarea class="form-control" name="text_2" placeholder=""></textarea>
+                                                <textarea class="form-control" name="health_services_details" placeholder=""></textarea>
                                             </label><br>
                                         </fieldset>
                                     </div>
@@ -210,7 +210,7 @@
                                                 </div>
                                             </div>
                                             <label><span>Which of these three is the worst symptom</span>
-                                                <select class='form-control' name='symptoms' required>
+                                                <select class='form-control' name='q2_symptoms' required>
                                                     <option></option>
                                                     <option>cough/ throat sensitivit</option>
                                                     <option>voice change</option>
@@ -686,7 +686,7 @@
                                                 </div>
                                             </div>
                                             <label><span>Which of these two is the worst symptom</span>
-                                                <select class='form-control' name='symptoms' required>
+                                                <select class='form-control' name='q5_symptoms' required>
                                                     <option></option>
                                                     <option>controlling your bowel</option>
                                                     <option>controlling your bladder</option>
@@ -930,7 +930,7 @@
                                             </div>
                                             <label><span>Within the last week, which of the these was the worst
                                                     problem</span>
-                                                <select class='form-control' name='symptoms' required>
+                                                <select class='form-control' name='q6_problem' required>
                                                     <option></option>
                                                     <option>chest pain</option>
                                                     <option>joint pain</option>
@@ -1119,7 +1119,7 @@
                                                 </div>
                                             </div>
                                             <label><span>Which of these three is the worst symptom</span>
-                                                <select class='form-control' name='symptoms' required>
+                                                <select class='form-control' name='q7_symptoms' required>
                                                     <option></option>
                                                     <option>concentrating</option>
                                                     <option>short term memory</option>
@@ -1852,6 +1852,1084 @@
                                     </div>
                                 </div>
                             </div>
+                            <div id='page13__ID'>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group">
+                                            12. Mobility <br>
+                                            <div class="form-group">
+                                                <label><span>On a 0-10 scale, how severe are any problems you have in walking about? <br>
+                                                    <i>Or moving about if you normally walk using aids </i><br>
+                                                    0 means no problems, 10 means severe or completely unable to walk about.
+                                                    </span></label>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Now</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_now_rating" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Pre Covid</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q12_pre_rating" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style='display:flex;justify-content: space-between;'>
+                                        <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                        <button type=submit d=1 class="btn btn-primary btn-lg">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id='page14__ID'>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group">
+                                            13. Personal-Care<br>
+                                            <div class="form-group">
+                                                <label><span>On a 0-10 scale, how severe are any problems you have in personal cares such as using the toilet, washing and dressing yourself? <br>
+                                                    0 means no problems, 10 means completely unable to do or fully dependent on others to help.</span>
+                                                </label>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Now</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_now_rating" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Pre Covid</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q13_pre_rating" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style='display:flex;justify-content: space-between;'>
+                                        <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                        <button type=submit d=1 class="btn btn-primary btn-lg">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id='page15__ID'>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group">
+                                            14. Other Activities of Daily Living <br>
+                                            <div class="form-group">
+                                                <label><span>On a 0-10 scale, how severe are any problems you have in doing your usual activities, such as your household work, leisure activities, work, study or shopping ? <br>
+                                                    0 means no problems, 10 means completely unable to do or fully dependent on others to help.
+                                                    </span>
+                                                </label>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Now</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_now_rating" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Pre Covid</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q14_pre_rating" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style='display:flex;justify-content: space-between;'>
+                                        <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                        <button type=submit d=1 class="btn btn-primary btn-lg">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id='page16__ID'>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group">
+                                            15. Social role<br>
+                                            <div class="form-group">
+                                                <label><span>On a 0-10 scale, how severe are any problems you have in caring for family members  and/or your interaction with friends that are related to your illness (and not due to the social distancing/lockdown measures) ? <br>
+                                                    0 means no problems, 10 means completely unable to do
+                                                    </span>
+                                                </label>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Now</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_now_rating" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Pre Covid</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="q15_pre_rating" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style='display:flex;justify-content: space-between;'>
+                                        <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                        <button type=submit d=1 class="btn btn-primary btn-lg">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id='page17__ID'>
+                                <div class="form-group">
+                                    <div class="row px-4">
+                                        <div class='col'>
+                                            What is your employment situation and has your illness affected your ability to do your usual work?
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-12 control-group">
+                                                <label><span>Occupation:<br></span></label><input
+                                                    class='form-control' type="text" name=occupation >
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 control-group">
+                                                <label><span>Employment status before Covid-19 Lockdown:<br></span></label><input
+                                                    class='form-control' type="text" name=status_before_lockdown >
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 control-group">
+                                                <label><span>Employment status before you became ill:<br></span></label><input
+                                                    class='form-control' type="text" name=status_before_illness >
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 control-group">
+                                                <label><span>Employment status now:<br></span></label><input
+                                                    class='form-control' type="text" name=status_now >
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 control-group">
+                                                <label><span>Do you think your family or carer would have anything to add from their perspective? <br></span></label><input
+                                                    class='form-control' type="text" name=family_comments >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style='display:flex;justify-content: space-between;'>
+                                        <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                        <button type=submit d=1 class="btn btn-primary btn-lg">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id='page18__ID'>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group">
+                                            <div class="form-group">
+                                                <label><span>Are you experiencing any other new problems since your illness we haven’t mentioned? Rate the severity of the problem (0 being not present, 10 being severe and life disturbing)</span>
+                                                </label>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Palpitations:</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="palpitations" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Dizziness/ falls:</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="dizziness" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Weakness:</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="weakness" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Sleep problems:</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="sleep" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Fever:</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="fever" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="questiongroup ">
+                                                    <div class=row>
+                                                        <div class=col-2>
+                                                            <label><span>Skin rash:</span></label>
+                                                        </div>
+                                                        <div class=col-10>
+                                                            <fieldset class="subquestions">
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="skin_rash" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class=row>
+                                                    <div class=col-12>
+                                                        <div class="col-12 control-group">
+                                                            <label><span>Other symptoms – free text:<br></span></label><textarea class='form-control' name=other_symptoms ></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style='display:flex;justify-content: space-between;'>
+                                        <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                        <button type=submit d=1 class="btn btn-primary btn-lg">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id='page19__ID'>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group">
+                                            How good or bad is your health overall?<br>
+                                            <div class="form-group">
+                                                <label><span style="color:red">NB: PLEASE NOTE THAT THIS QUESTION IS SCORED IN THE OPPOSITE DIRECTION TO THE REST OF THE QUESTIONS IN THIS QUESTIONNAIRE.</span><br><br>
+                                                    <span>For this question, a score of 10 means the BEST health you can imagine. 0 means the WORST health you can imagine. </span>
+                                                </label>
+                                                <div class="questiongroup ">
+                                                    <label><span>Now:</span></label><br>
+                                                    <div class=row>
+                                                        <div class=col>
+                                                            <fieldset class="subquestions">
+                                                                <label>
+                                                                    <span>WORST HEALTH</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_now_rating" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label><br><br>
+                                                                <label>
+                                                                    <span>BEST HEALTH</span>
+                                                                </label><br>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="questiongroup ">
+                                                    <label><span>Pre-Covid:</span></label><br>
+                                                    <div class=row>
+                                                        <div class=col>
+                                                            <fieldset class="subquestions">
+                                                                <label>
+                                                                    <span>WORST HEALTH</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="0"
+                                                                        required>
+                                                                    <span class="checkmark no-dot">0</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="1">
+                                                                    <span class="checkmark no-dot">1</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="2">
+                                                                    <span class="checkmark no-dot">2</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="3">
+                                                                    <span class="checkmark no-dot">3</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="4">
+                                                                    <span class="checkmark no-dot">4</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="5">
+                                                                    <span class="checkmark no-dot">5</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="6">
+                                                                    <span class="checkmark no-dot">6</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="7">
+                                                                    <span class="checkmark no-dot">7</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="8">
+                                                                    <span class="checkmark no-dot">8</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="9">
+                                                                    <span class="checkmark no-dot">9</span>
+                                                                </label><br>
+                                                                <label class="radiobuttons">
+                                                                    <input type="radio" name="health_pre_rating" value="10">
+                                                                    <span class="checkmark no-dot">10</span>
+                                                                </label><br><br>
+                                                                <label>
+                                                                    <span>BEST HEALTH</span>
+                                                                </label><br>
+                                                            </fieldset>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style='display:flex;justify-content: space-between;'>
+                                        <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                        <button type=submit  id="submit__ID" class="btn btn-primary btn-lg">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
 
                         </form>
                     </div>
@@ -1872,7 +2950,7 @@
             var load2 = m.load;
             m.load = function () {
                 load2();
-                show_section(12);
+                show_section(1);
             }
             //-------------------------------
             $('#F__ID button').on('click', function (event) {

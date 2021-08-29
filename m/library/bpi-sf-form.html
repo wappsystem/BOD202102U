@@ -1,379 +1,1530 @@
 <div id=D__ID>
-<!--third html start -->
+    <!--third html start -->
     <div class="container mt-95 mb-3">
-      <div class="row" >
-        <!-- form container start -->
-        <div class="col-12 col-lg-12 col-md-12 col-sm-12 mx-auto formbox">
-          <div class="row">
-            <div class="col-12">
-              <!-- form start -->
-              <form id="F__ID">
-                  <h3>Basic Psychological Need Satisfaction Scale</h3>
-                  <!-- participant name and study id -->
-                  <div id="participant_div__ID">
-                      <div class="form-group">
-                         <fieldset class="subquestions">
-                             <label ><span class="">Participant</span>
-                                 <input type=text name="Participant" class=form-control id=Participant__ID data-id="Participant"/>
-                             </label><br>
-                             <label ><span class="">Participant ID</span>
-                                 <input type=text name="Participant_uid" class=form-control _readonly />
-                             </label>
-                          </fieldset>
-                      </div>
-                  </div>
-                  <div class="form-group">
-                      <fieldset class="subquestions">
-                          <h4>Please read each of the following items carefully, thinking about how it relates to your life, and then indicate how true it is for you.</h4>
-                      </fieldset>
-                  </div>
-                  <div class="form-group">
-                      <h4>1. I get along with people I come into contact with</h4>
-      				  <div class="questiongroup">
-                          <fieldset>
-                              <label class="radiobuttons">
-                                <input type="radio" name="bpns_1" value="1" required>
-                                <span class="checkmark"></span> (1) Not at all true</label><br>
-                              <label class="radiobuttons">
-                                <input type="radio" name="bpns_1" value="2">
-                                <span class="checkmark"></span> (2)</label><br>
-                              <label class="radiobuttons">
-                                  <input type="radio" name="bpns_1" value="3">
-                                  <span class="checkmark"></span> (3)
-                              </label><br>
-                              <label class="radiobuttons">
-                                  <input type="radio" name="bpns_1" value="4">
-                                  <span class="checkmark"></span> (4) Somewhat true
-                              </label><br>
-                              <label class="radiobuttons">
-                                  <input type="radio" name="bpns_1" value="5">
-                                  <span class="checkmark"></span> (5)
-                              </label><br>
-                              <label class="radiobuttons">
-                                  <input type="radio" name="bpns_1" value="6">
-                                  <span class="checkmark"></span> (6)
-                              </label><br>
-                              <label class="radiobuttons">
-                                  <input type="radio" name="bpns_1" value="7">
-                                  <span class="checkmark"></span> (7) Very true
-                              </label><br>
-                          </fieldset>
-                     </div>
-      		      </div>
-                  <div class="form-group">
-                      <h4>2.	Most days I feel a sense of accomplishment from what I do</h4>
-      				  <div id=bpi__ID>
-                            <div class=bb__ID id=fb01__ID></div>
-                            <div class=bb__ID id=fb02__ID></div>
-                            <div class=bb__ID id=fb03__ID></div>
-                            <div class=bb__ID id=fb04__ID></div>
-                            <div class=lb__ID id=fb05__ID></div>
-                            <div class=bb__ID id=fb06__ID></div>
-                            <div class=bb__ID id=fb07__ID></div>
-                            <div class=bb__ID id=fb08__ID></div>
-                            <div class=bb__ID id=fb09__ID></div>
-                            <div class=lb__ID id=fb10__ID></div>
-                            <div class=bb__ID id=fb11__ID></div>
-                            <div class=bb__ID id=fb12__ID></div>
-                            <div class=bb__ID id=fb13__ID></div>
-                            <div class=bb__ID id=fb14__ID></div>
-                            <div class=bb__ID id=fb15__ID></div>
-                            <div class=bb__ID id=fb16__ID></div>
-                            <div class=bb__ID id=fb17__ID></div>
-                            
-                            <div class=sb__ID id=fs01__ID></div>
-                            <div class=sb__ID id=fs02__ID></div>
-                            <div class=sb__ID id=fs03__ID></div>
-                            <div class=sb__ID id=fs04__ID></div>
-                            <div class=sb__ID id=fs05__ID></div>
-                            <div class=sb__ID id=fs06__ID></div>
-                            <div class=sb__ID id=fs07__ID></div>
-                            <div class=sb__ID id=fs08__ID></div>
-                            <div class=sb__ID id=fs09__ID></div>
-                            <div class=sb__ID id=fs10__ID></div>
-                            <div class=sb__ID id=fs11__ID></div>
-                            <div class=sb__ID id=fs12__ID></div>
-                            <div class=sb__ID id=fs13__ID></div>
-                            <div class=sb__ID id=fs14__ID></div>
-                            <div class=sb__ID id=fs15__ID></div>
-                            <div class=sb__ID id=fs16__ID></div>
-                            <div class=sb__ID id=fs17__ID></div>
-                            <div class=sb__ID id=fs18__ID></div>
-                            <div class=sb__ID id=fs19__ID></div>
-                            <div class=sb__ID id=fs20__ID></div>
-                            <div class=sb__ID id=fs21__ID></div>
+        <div class="row">
+            <!-- form container start -->
+            <div class="col-12 col-lg-12 col-md-12 col-sm-12 mx-auto formbox">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- form start -->
+                        <form id="F__ID">
+                            <h3 id=title__ID></h3>
+                            <!-- participant part for all tsak forms -------------------->
+                            <div id="participant_div__ID">
+                                <div class="form-group">
+                                    <fieldset class="subquestions">
+                                        <label><span class="">Participant</span>
+                                            <input type=text name="Participant" class=form-control id=Participant__ID
+                                                data-id="Participant" />
+                                        </label><br>
+                                        <label><span class="">Participant ID</span>
+                                            <input type=text name="Participant_uid" class=form-control readonly />
+                                        </label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <!-- form group -->
+                            <!---------------------------------------------------->
+                            <div id='page1__ID'>
+                                <div class="form-group">
+                                    <h4>1) Throughout our lives, most of us have had pain from time to time
+                                        (such as minor headaches, sprains, and toothaches). Have you had
+                                        pain other than these everyday kinds of pain today?</h4>
+                                    <div class="questiongroup ">
+                                        <fieldset class="subquestions">
+                                            <label class="radiobuttons">
+                                                <input type="radio" name="pain" value="1" required>
+                                                <span class="checkmark"></span>Yes
+                                            </label><br>
+                                            <label class="radiobuttons">
+                                                <input type="radio" name="pain" value="0">
+                                                <span class="checkmark"></span> No
+                                            </label><br>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div style='text-align:right'>
+                                    <button id=pain__ID type=submit d=1 class="btn btn-primary btn-lg">Next</button>
+                                </div>
+                            </div>
+                            <div id='page2__ID'>
+                                <div class="form-group">
+                                    <h4>2) On the diagram, click on the areas where you feel pain. Click again on the
+                                        grey area to put an X on
+                                        the area that hurts the most. Click another time to reset if you made an error.
+                                    </h4>
+                                    <div id=bpi__ID>
+                                        <div class=bb__ID id=z_front_1__ID>1</div>
+                                        <div class=bb__ID id=z_front_2__ID>2</div>
+                                        <div class=sb__ID id=z_front_3__ID>3</div>
+                                        <div class=sb__ID id=z_front_4__ID>4</div>
+                                        <div class=sb__ID id=z_front_5__ID>5</div>
+                                        <div class=bb__ID id=z_front_6__ID>6</div>
+                                        <div class=sb__ID id=z_front_7__ID>7</div>
+                                        <div class=sb__ID id=z_front_8__ID>8</div>
+                                        <div class=sb__ID id=z_front_9__ID>9</div>
+                                        <div class=bb__ID id=z_front_10__ID>10</div>
+                                        <div class=bb__ID id=z_front_11__ID>11</div>
+                                        <div class=sb__ID id=z_front_12__ID>12</div>
+                                        <div class=sb__ID id=z_front_13__ID>13</div>
+                                        <div class=sb__ID id=z_front_14__ID>14</div>
+                                        <div class=sb__ID id=z_front_15__ID>15</div>
+                                        <div class=sb__ID id=z_front_16__ID>16</div>
+                                        <div class=sb__ID id=z_front_17__ID>17</div>
+                                        <div class=bb__ID id=z_front_18__ID>18</div>
+                                        <div class=bb__ID id=z_front_19__ID>19</div>
+                                        <div class=sb__ID id=z_front_20__ID>20</div>
+                                        <div class=sb__ID id=z_front_21__ID>21</div>
+                                        <div class=sb__ID id=z_front_22__ID>22</div>
+                                        <div class=sb__ID id=z_front_23__ID>23</div>
+                                        <div class=sb__ID id=z_front_24__ID>24</div>
+                                        <div class=sb__ID id=z_front_25__ID>25</div>
+                                        <div class=bb__ID id=z_front_26__ID>26</div>
+                                        <div class=bb__ID id=z_front_27__ID>27</div>
+                                        <div class=sb__ID id=z_front_28__ID>28</div>
+                                        <div class=sb__ID id=z_front_29__ID>29</div>
+                                        <div class=sb__ID id=z_front_30__ID>30</div>
+                                        <div class=lb__ID id=z_front_31__ID>31</div>
+                                        <div class=lb__ID id=z_front_32__ID>32</div>
+                                        <div class=bb__ID id=z_front_33__ID>33</div>
+                                        <div class=bb__ID id=z_front_34__ID>34</div>
+                                        <div class=bb__ID id=z_front_35__ID>35</div>
+                                        <div class=bb__ID id=z_front_36__ID>36</div>
+                                        <div class=bb__ID id=z_front_37__ID>37</div>
+                                        <div class=bb__ID id=z_front_38__ID>38</div>
 
-                            <div class=bb__ID id=fbb01__ID></div>
-                            <div class=bb__ID id=fbb02__ID></div>
-                            <div class=bb__ID id=fbb03__ID></div>
-                            <div class=bb__ID id=fbb04__ID></div>
-                            <div class=lb__ID id=fbb05__ID></div>
-                            <div class=bb__ID id=fbb06__ID></div>
-                            <div class=bb__ID id=fbb07__ID></div>
-                            <div class=bb__ID id=fbb08__ID></div>
-                            <div class=bb__ID id=fbb09__ID></div>
-                            <div class=lb__ID id=fbb10__ID></div>
-                            <div class=bb__ID id=fbb11__ID></div>
-                            <div class=bb__ID id=fbb12__ID></div>
-                            <div class=bb__ID id=fbb13__ID></div>
-                            <div class=bb__ID id=fbb14__ID></div>
-                            <div class=bb__ID id=fbb15__ID></div>
-                            <div class=bb__ID id=fbb16__ID></div>
-                            <div class=bb__ID id=fbb17__ID></div>
-                            
-                            <div class=sb__ID id=fbs01__ID></div>
-                            <div class=sb__ID id=fbs02__ID></div>
-                            <div class=sb__ID id=fbs03__ID></div>
-                            <div class=sb__ID id=fbs04__ID></div>
-                            <div class=sb__ID id=fbs05__ID></div>
-                            <div class=sb__ID id=fbs06__ID></div>
-                            <div class=sb__ID id=fbs07__ID></div>
-                            <div class=sb__ID id=fbs08__ID></div>
-                            <div class=sb__ID id=fbs09__ID></div>
-                            <div class=sb__ID id=fbs10__ID></div>
-                            <div class=sb__ID id=fbs11__ID></div>
-                            <div class=sb__ID id=fbs12__ID></div>
-                            <div class=sb__ID id=fbs13__ID></div>
-                            <div class=sb__ID id=fbs14__ID></div>
-                            <div class=sb__ID id=fbs15__ID></div>
-                            <div class=sb__ID id=fbs16__ID></div>
-                            <div class=sb__ID id=fbs17__ID></div>
-                            <div class=sb__ID id=fbs18__ID></div>
-                            <div class=sb__ID id=fbs19__ID></div>
-                            <div class=sb__ID id=fbs20__ID></div>
-                            <div class=sb__ID id=fbs21__ID></div>
-                     </div>
-                     <style>
-                         .bb__ID{
-                            width:42px;
-                            height:42px;
-                            border:1px solid grey;
-                            position: absolute;
-                            text-align: center;
-                            color:red;
-                            font-weight: bold;
-                         }
-                         .lb__ID{
-                            width:34px;
-                            height:42px;
-                            border:1px solid grey;
-                            position: absolute;
-                            text-align: center;
-                            color:red;
-                            font-weight: bold;
-                         }
-                         .sb__ID{
-                            width:24px;
-                            height:22px;
-                            border:1px solid grey;
-                            position: absolute;
-                            text-align: center;
-                            color:red;
-                            font-weight: bold;
-                         }
-                         .shade__ID{
-                             background-color: #888;
-                             opacity: 50%;
-                         }
-                         #bpi__ID{
-                             position: relative;
-                             width:607px;
-                             height:398px;
-                             border:1px solid grey;
-                             _background-size: cover; 
-                             _background-repeat: repeat-x; 
-                             _background-position: center top; 
-                             _background-attachment: fixed;
-                             background-image: url(__CURRENT_PATH__/bpi.png)
-                         }
-                         #fb01__ID{  top:68px;   left:91px;  }
-                         #fb02__ID{  top:110px;   left:91px;  }
-                         #fb03__ID{  top:152px;   left:91px;  }
-                         #fb04__ID{  top:194px;   left:91px;  }
-                         #fb05__ID{  top:220px;   left:132px;  }
-                         #fb06__ID{  top:262px;   left:126px;  }
-                         #fb07__ID{  top:304px;   left:126px;  }
-                         #fb08__ID{  top:346px;   left:126px;  }
-                         #fb09__ID{  top:26px;   left:147px;  }
-                         #fb10__ID{  top:220px;   left:167px;  }
-                         #fb11__ID{  top:262px;   left:167px;  }
-                         #fb12__ID{  top:304px;   left:167px;  }
-                         #fb13__ID{  top:346px;   left:167px;  }
-                         #fb14__ID{  top:68px;   left:203px;  }
-                         #fb15__ID{  top:110px;   left:203px;  }
-                         #fb16__ID{  top:152px;   left:203px;  }
-                         #fb17__ID{  top:194px;   left:203px;  }
-                         #fs01__ID{  top:68px;   left:132px;  }
-                         #fs02__ID{  top:90px;   left:132px;  }
-                         #fs03__ID{  top:112px;   left:132px;  }
-                         #fs04__ID{  top:134px;   left:132px;  }
-                         #fs05__ID{  top:156px;   left:132px;  }
-                         #fs06__ID{  top:178px;   left:132px;  }
-                         #fs07__ID{  top:200px;   left:132px;  }
-                         #fs08__ID{  top:68px;   left:156px;  }
-                         #fs09__ID{  top:90px;   left:156px;  }
-                         #fs10__ID{  top:112px;   left:156px;  }
-                         #fs11__ID{  top:134px;   left:156px;  }
-                         #fs12__ID{  top:156px;   left:156px;  }
-                         #fs13__ID{  top:178px;   left:156px;  }
-                         #fs14__ID{  top:200px;   left:156px;  }
-                         #fs15__ID{  top:68px;   left:180px;  }
-                         #fs16__ID{  top:90px;   left:180px;  }
-                         #fs17__ID{  top:112px;   left:180px;  }
-                         #fs18__ID{  top:134px;   left:180px;  }
-                         #fs19__ID{  top:156px;   left:180px;  }
-                         #fs20__ID{  top:178px;   left:180px;  }
-                         #fs21__ID{  top:200px;   left:180px;  }
-                         #fbb01__ID{  top:66px;   left:363px;  }
-                         #fbb02__ID{  top:108px;   left:363px;  }
-                         #fbb03__ID{  top:150px;   left:363px;  }
-                         #fbb04__ID{  top:192px;   left:363px;  }
-                         #fbb05__ID{  top:218px;   left:404px;  }
-                         #fbb06__ID{  top:260px;   left:398px;  }
-                         #fbb07__ID{  top:304px;   left:398px;  }
-                         #fbb08__ID{  top:344px;   left:398px;  }
-                         #fbb09__ID{  top:24px;   left:419px;  }
-                         #fbb10__ID{  top:218px;   left:439px;  }
-                         #fbb11__ID{  top:260px;   left:439px;  }
-                         #fbb12__ID{  top:302px;   left:439px;  }
-                         #fbb13__ID{  top:344px;   left:439px;  }
-                         #fbb14__ID{  top:66px;   left:475px;  }
-                         #fbb15__ID{  top:108px;   left:475px;  }
-                         #fbb16__ID{  top:150px;   left:475px;  }
-                         #fbb17__ID{  top:192px;   left:475px;  }
-                         #fbs01__ID{  top:66px;   left:404px;  }
-                         #fbs02__ID{  top:88px;   left:404px;  }
-                         #fbs03__ID{  top:110px;   left:404px;  }
-                         #fbs04__ID{  top:132px;   left:404px;  }
-                         #fbs05__ID{  top:154px;   left:404px;  }
-                         #fbs06__ID{  top:176px;   left:404px;  }
-                         #fbs07__ID{  top:198px;   left:404px;  }
-                         #fbs08__ID{  top:66px;   left:428px;  }
-                         #fbs09__ID{  top:88px;   left:428px;  }
-                         #fbs10__ID{  top:110px;   left:428px;  }
-                         #fbs11__ID{  top:132px;   left:428px;  }
-                         #fbs12__ID{  top:154px;   left:428px;  }
-                         #fbs13__ID{  top:176px;   left:428px;  }
-                         #fbs14__ID{  top:198px;   left:428px;  }
-                         #fbs15__ID{  top:66px;   left:452px;  }
-                         #fbs16__ID{  top:88px;   left:452px;  }
-                         #fbs17__ID{  top:110px;   left:452px;  }
-                         #fbs18__ID{  top:132px;   left:452px;  }
-                         #fbs19__ID{  top:154px;   left:452px;  }
-                         #fbs20__ID{  top:176px;   left:452px;  }
-                         #fbs21__ID{  top:198px;   left:452px;  }
-                     </style>
-      		      </div>
-                  <div class="form-group">
-                      <h4>3.	I feel like I can pretty much be myself in my daily situations</h4>
-      				  <div class="questiongroup">
-                          <fieldset>
-                              <label class="radiobuttons">
-                                <input type="radio" name="bpns_3" value="1" required>
-                                <span class="checkmark"></span> (1) Not at all true</label><br>
-                              <label class="radiobuttons">
-                                <input type="radio" name="bpns_3" value="2">
-                                <span class="checkmark"></span> (2)</label><br>
-                              <label class="radiobuttons">
-                                  <input type="radio" name="bpns_3" value="3">
-                                  <span class="checkmark"></span> (3)
-                              </label><br>
-                              <label class="radiobuttons">
-                                  <input type="radio" name="bpns_3" value="4">
-                                  <span class="checkmark"></span> (4) Somewhat true
-                              </label><br>
-                              <label class="radiobuttons">
-                                  <input type="radio" name="bpns_3" value="5">
-                                  <span class="checkmark"></span> (5)
-                              </label><br>
-                              <label class="radiobuttons">
-                                  <input type="radio" name="bpns_3" value="6">
-                                  <span class="checkmark"></span> (6)
-                              </label><br>
-                              <label class="radiobuttons">
-                                  <input type="radio" name="bpns_3" value="7">
-                                  <span class="checkmark"></span> (7) Very true
-                              </label><br>
-                          </fieldset>
-                     </div>
-      		      </div>
-                  <button type="submit" id="submit__ID" class="btn btn-primary btn-lg">Submit</button>
-              </form>
+                                        <div class=bb__ID id=z_back_1__ID>1</div>
+                                        <div class=bb__ID id=z_back_2__ID>2</div>
+                                        <div class=sb__ID id=z_back_3__ID>3</div>
+                                        <div class=sb__ID id=z_back_4__ID>4</div>
+                                        <div class=sb__ID id=z_back_5__ID>5</div>
+                                        <div class=bb__ID id=z_back_6__ID>6</div>
+                                        <div class=sb__ID id=z_back_7__ID>7</div>
+                                        <div class=sb__ID id=z_back_8__ID>8</div>
+                                        <div class=sb__ID id=z_back_9__ID>9</div>
+                                        <div class=bb__ID id=z_back_10__ID>10</div>
+                                        <div class=bb__ID id=z_back_11__ID>11</div>
+                                        <div class=sb__ID id=z_back_12__ID>12</div>
+                                        <div class=sb__ID id=z_back_13__ID>13</div>
+                                        <div class=sb__ID id=z_back_14__ID>14</div>
+                                        <div class=sb__ID id=z_back_15__ID>15</div>
+                                        <div class=sb__ID id=z_back_16__ID>16</div>
+                                        <div class=sb__ID id=z_back_17__ID>17</div>
+                                        <div class=bb__ID id=z_back_18__ID>18</div>
+                                        <div class=bb__ID id=z_back_19__ID>19</div>
+                                        <div class=sb__ID id=z_back_20__ID>20</div>
+                                        <div class=sb__ID id=z_back_21__ID>21</div>
+                                        <div class=sb__ID id=z_back_22__ID>22</div>
+                                        <div class=sb__ID id=z_back_23__ID>23</div>
+                                        <div class=sb__ID id=z_back_24__ID>24</div>
+                                        <div class=sb__ID id=z_back_25__ID>25</div>
+                                        <div class=bb__ID id=z_back_26__ID>26</div>
+                                        <div class=bb__ID id=z_back_27__ID>27</div>
+                                        <div class=sb__ID id=z_back_28__ID>28</div>
+                                        <div class=sb__ID id=z_back_29__ID>29</div>
+                                        <div class=sb__ID id=z_back_30__ID>30</div>
+                                        <div class=lb__ID id=z_back_31__ID>31</div>
+                                        <div class=lb__ID id=z_back_32__ID>32</div>
+                                        <div class=bb__ID id=z_back_33__ID>33</div>
+                                        <div class=bb__ID id=z_back_34__ID>34</div>
+                                        <div class=bb__ID id=z_back_35__ID>35</div>
+                                        <div class=bb__ID id=z_back_36__ID>36</div>
+                                        <div class=bb__ID id=z_back_37__ID>37</div>
+                                        <div class=bb__ID id=z_back_38__ID>38</div>
+                                    </div>
+                                    <div style='display:flex;justify-content: space-between;'>
+                                        <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                        <button type=submit d=1 class="btn btn-primary btn-lg">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id='page3__ID'>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group"><br>
+                                            3) Please rate your pain by clicking on the one number that best describes
+                                            your
+                                            pain at its <b>WORST</b> in the past 24 hours.
+                                            <div class="questiongroup ">
+                                                <div class=row>
+                                                    <div class=col>
+                                                        <fieldset class="subquestions">
+                                                            <label>
+                                                                <span>No Pain</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="0"
+                                                                    required>
+                                                                <span class="checkmark no-dot">0</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="1">
+                                                                <span class="checkmark no-dot">1</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="2">
+                                                                <span class="checkmark no-dot">2</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="3">
+                                                                <span class="checkmark no-dot">3</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="4">
+                                                                <span class="checkmark no-dot">4</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="5">
+                                                                <span class="checkmark no-dot">5</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="6">
+                                                                <span class="checkmark no-dot">6</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="7">
+                                                                <span class="checkmark no-dot">7</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="8">
+                                                                <span class="checkmark no-dot">8</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="9">
+                                                                <span class="checkmark no-dot">9</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_worst" value="10">
+                                                                <span class="checkmark no-dot">10</span>
+                                                            </label><br><br>
+                                                            <label>
+                                                                <span>Pain as bad as you can imagine</span>
+                                                            </label><br>
+                                                        </fieldset>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group"><br>
+                                            4) Please rate your pain by clicking on the one number that best describes
+                                            your pain at its <b>LEAST</b> in the past 24 hours.
+                                            <div class="questiongroup ">
+                                                <div class=row>
+                                                    <div class=col>
+                                                        <fieldset class="subquestions">
+                                                            <label>
+                                                                <span>No Pain</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="0"
+                                                                    required>
+                                                                <span class="checkmark no-dot">0</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="1">
+                                                                <span class="checkmark no-dot">1</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="2">
+                                                                <span class="checkmark no-dot">2</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="3">
+                                                                <span class="checkmark no-dot">3</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="4">
+                                                                <span class="checkmark no-dot">4</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="5">
+                                                                <span class="checkmark no-dot">5</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="6">
+                                                                <span class="checkmark no-dot">6</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="7">
+                                                                <span class="checkmark no-dot">7</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="8">
+                                                                <span class="checkmark no-dot">8</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="9">
+                                                                <span class="checkmark no-dot">9</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_least" value="10">
+                                                                <span class="checkmark no-dot">10</span>
+                                                            </label><br><br>
+                                                            <label>
+                                                                <span>Pain as bad as you can imagine</span>
+                                                            </label><br>
+                                                        </fieldset>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group"><br>
+                                            5) Please rate your pain by clicking on the one number that best describes
+                                            your pain on the <b>AVERAGE</b>.
+                                            <div class="questiongroup ">
+                                                <div class=row>
+                                                    <div class=col>
+                                                        <fieldset class="subquestions">
+                                                            <label>
+                                                                <span>No Pain</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="0"
+                                                                    required>
+                                                                <span class="checkmark no-dot">0</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="1">
+                                                                <span class="checkmark no-dot">1</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="2">
+                                                                <span class="checkmark no-dot">2</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="3">
+                                                                <span class="checkmark no-dot">3</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="4">
+                                                                <span class="checkmark no-dot">4</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="5">
+                                                                <span class="checkmark no-dot">5</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="6">
+                                                                <span class="checkmark no-dot">6</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="7">
+                                                                <span class="checkmark no-dot">7</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="8">
+                                                                <span class="checkmark no-dot">8</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="9">
+                                                                <span class="checkmark no-dot">9</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_average" value="10">
+                                                                <span class="checkmark no-dot">10</span>
+                                                            </label><br><br>
+                                                            <label>
+                                                                <span>Pain as bad as you can imagine</span>
+                                                            </label><br>
+                                                        </fieldset>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group"><br>
+                                            6) Please rate your pain by clicking on the one number that tell how much
+                                            pain you have <b>RIGHT NOW</b>.
+                                            <div class="questiongroup ">
+                                                <div class=row>
+                                                    <div class=col>
+                                                        <fieldset class="subquestions">
+                                                            <label>
+                                                                <span>No Pain</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="0" required>
+                                                                <span class="checkmark no-dot">0</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="1">
+                                                                <span class="checkmark no-dot">1</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="2">
+                                                                <span class="checkmark no-dot">2</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="3">
+                                                                <span class="checkmark no-dot">3</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="4">
+                                                                <span class="checkmark no-dot">4</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="5">
+                                                                <span class="checkmark no-dot">5</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="6">
+                                                                <span class="checkmark no-dot">6</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="7">
+                                                                <span class="checkmark no-dot">7</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="8">
+                                                                <span class="checkmark no-dot">8</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="9">
+                                                                <span class="checkmark no-dot">9</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="pain_now" value="10">
+                                                                <span class="checkmark no-dot">10</span>
+                                                            </label><br><br>
+                                                            <label>
+                                                                <span>Pain as bad as you can imagine</span>
+                                                            </label><br>
+                                                        </fieldset>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style='display:flex;justify-content: space-between;'>
+                                    <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                    <button type=submit d=1 class="btn btn-primary btn-lg">Next</button>
+                                </div>
+                            </div>
+                            <div id='page4__ID'>
+                                <div class="form-group">
+                                    <h4>7) What treatments or medications are you receiving for your pain?</h4>
+                                    <div class="questiongroup ">
+                                        <textarea name=treatments class="form-control" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm control-group"><br>
+                                            8) In the past 24 hours, how much <b>RELIEF</b> have pain treatments or
+                                            medications provided? Please click on the one percentage that most shows how
+                                            much relief you have received..
+                                            <div class="questiongroup ">
+                                                <div class=row>
+                                                    <div class=col>
+                                                        <fieldset class="subquestions">
+                                                            <label>
+                                                                <span>No Relief</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="0" required>
+                                                                <span class="checkmark_wide no-dot">0%</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="10">
+                                                                <span class="checkmark_wide no-dot">10%</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="20">
+                                                                <span class="checkmark_wide no-dot">20%</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="30">
+                                                                <span class="checkmark_wide no-dot">30%</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="40">
+                                                                <span class="checkmark_wide no-dot">40%</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="50">
+                                                                <span class="checkmark_wide no-dot">50%</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="60">
+                                                                <span class="checkmark_wide no-dot">60%</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="70">
+                                                                <span class="checkmark_wide no-dot">70%</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="80">
+                                                                <span class="checkmark_wide no-dot">80%</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="90">
+                                                                <span class="checkmark_wide no-dot">90%</span>
+                                                            </label><br>
+                                                            <label class="radiobuttons">
+                                                                <input type="radio" name="relief" value="100">
+                                                                <span class="checkmark_wide no-dot">100%</span>
+                                                            </label><br><br>
+                                                            <label>
+                                                                <span>Complete Relief</span>
+                                                            </label><br>
+                                                        </fieldset>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style='text-align:right'>
+                                    <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                    <button type=submit d=1 class="btn btn-primary btn-lg">Next</button>
+                                </div>
+                            </div>
+                            <div id='page5__ID'>
+                                <div class="form-group">
+                                    9) Click on the the one number that describes how, during the past 24 hours. <b>PAIN
+                                        HAS INTERFERED</b> with your:<br>
+                                    <label><span>A. General Activity:</span>
+                                    </label>
+                                    <div class="questiongroup ">
+                                        <div class=row>
+                                            <div class=col>
+                                                <fieldset class="subquestions">
+                                                    <label>
+                                                        <span>Does not Interfere</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="0" required>
+                                                        <span class="checkmark no-dot">0</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="1">
+                                                        <span class="checkmark no-dot">1</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="2">
+                                                        <span class="checkmark no-dot">2</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="3">
+                                                        <span class="checkmark no-dot">3</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="4">
+                                                        <span class="checkmark no-dot">4</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="5">
+                                                        <span class="checkmark no-dot">5</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="6">
+                                                        <span class="checkmark no-dot">6</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="7">
+                                                        <span class="checkmark no-dot">7</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="8">
+                                                        <span class="checkmark no-dot">8</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="9">
+                                                        <span class="checkmark no-dot">9</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="general_activity" value="10">
+                                                        <span class="checkmark no-dot">10</span>
+                                                    </label><br><br>
+                                                    <label>
+                                                        <span>Completely interferes</span>
+                                                    </label><br>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label><span>B. Mood</span>
+                                    </label>
+                                    <div class="questiongroup ">
+                                        <div class=row>
+                                            <div class=col>
+                                                <fieldset class="subquestions">
+                                                    <label>
+                                                        <span>Does not Interfere</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="0" required>
+                                                        <span class="checkmark no-dot">0</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="1">
+                                                        <span class="checkmark no-dot">1</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="2">
+                                                        <span class="checkmark no-dot">2</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="3">
+                                                        <span class="checkmark no-dot">3</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="4">
+                                                        <span class="checkmark no-dot">4</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="5">
+                                                        <span class="checkmark no-dot">5</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="6">
+                                                        <span class="checkmark no-dot">6</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="7">
+                                                        <span class="checkmark no-dot">7</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="8">
+                                                        <span class="checkmark no-dot">8</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="9">
+                                                        <span class="checkmark no-dot">9</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="mood" value="10">
+                                                        <span class="checkmark no-dot">10</span>
+                                                    </label><br><br>
+                                                    <label>
+                                                        <span>Completely interferes</span>
+                                                    </label><br>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label><span>C. Walking Ability</span>
+                                    </label>
+                                    <div class="questiongroup ">
+                                        <div class=row>
+                                            <div class=col>
+                                                <fieldset class="subquestions">
+                                                    <label>
+                                                        <span>Does not Interfere</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="0" required>
+                                                        <span class="checkmark no-dot">0</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="1">
+                                                        <span class="checkmark no-dot">1</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="2">
+                                                        <span class="checkmark no-dot">2</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="3">
+                                                        <span class="checkmark no-dot">3</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="4">
+                                                        <span class="checkmark no-dot">4</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="5">
+                                                        <span class="checkmark no-dot">5</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="6">
+                                                        <span class="checkmark no-dot">6</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="7">
+                                                        <span class="checkmark no-dot">7</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="8">
+                                                        <span class="checkmark no-dot">8</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="9">
+                                                        <span class="checkmark no-dot">9</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="walking_ability" value="10">
+                                                        <span class="checkmark no-dot">10</span>
+                                                    </label><br><br>
+                                                    <label>
+                                                        <span>Completely interferes</span>
+                                                    </label><br>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label><span>D. Normal work (Includes both work outside the home
+                                            and housework)</span>
+                                    </label>
+                                    <div class="questiongroup ">
+                                        <div class=row>
+                                            <div class=col>
+                                                <fieldset class="subquestions">
+                                                    <label>
+                                                        <span>Does not Interfere</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="0" required>
+                                                        <span class="checkmark no-dot">0</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="1">
+                                                        <span class="checkmark no-dot">1</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="2">
+                                                        <span class="checkmark no-dot">2</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="3">
+                                                        <span class="checkmark no-dot">3</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="4">
+                                                        <span class="checkmark no-dot">4</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="5">
+                                                        <span class="checkmark no-dot">5</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="6">
+                                                        <span class="checkmark no-dot">6</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="7">
+                                                        <span class="checkmark no-dot">7</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="8">
+                                                        <span class="checkmark no-dot">8</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="9">
+                                                        <span class="checkmark no-dot">9</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="normal_work" value="10">
+                                                        <span class="checkmark no-dot">10</span>
+                                                    </label><br><br>
+                                                    <label>
+                                                        <span>Completely interferes</span>
+                                                    </label><br>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label><span>E. Relation with other people</span>
+                                    </label>
+                                    <div class="questiongroup ">
+                                        <div class=row>
+                                            <div class=col>
+                                                <fieldset class="subquestions">
+                                                    <label>
+                                                        <span>Does not Interfere</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="0" required>
+                                                        <span class="checkmark no-dot">0</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="1">
+                                                        <span class="checkmark no-dot">1</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="2">
+                                                        <span class="checkmark no-dot">2</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="3">
+                                                        <span class="checkmark no-dot">3</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="4">
+                                                        <span class="checkmark no-dot">4</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="5">
+                                                        <span class="checkmark no-dot">5</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="6">
+                                                        <span class="checkmark no-dot">6</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="7">
+                                                        <span class="checkmark no-dot">7</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="8">
+                                                        <span class="checkmark no-dot">8</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="9">
+                                                        <span class="checkmark no-dot">9</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="relations" value="10">
+                                                        <span class="checkmark no-dot">10</span>
+                                                    </label><br><br>
+                                                    <label>
+                                                        <span>Completely interferes</span>
+                                                    </label><br>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label><span>F. Sleep</span>
+                                    </label>
+                                    <div class="questiongroup ">
+                                        <div class=row>
+                                            <div class=col>
+                                                <fieldset class="subquestions">
+                                                    <label>
+                                                        <span>Does not Interfere</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="0" required>
+                                                        <span class="checkmark no-dot">0</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="1">
+                                                        <span class="checkmark no-dot">1</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="2">
+                                                        <span class="checkmark no-dot">2</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="3">
+                                                        <span class="checkmark no-dot">3</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="4">
+                                                        <span class="checkmark no-dot">4</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="5">
+                                                        <span class="checkmark no-dot">5</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="6">
+                                                        <span class="checkmark no-dot">6</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="7">
+                                                        <span class="checkmark no-dot">7</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="8">
+                                                        <span class="checkmark no-dot">8</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="9">
+                                                        <span class="checkmark no-dot">9</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="sleep" value="10">
+                                                        <span class="checkmark no-dot">10</span>
+                                                    </label><br><br>
+                                                    <label>
+                                                        <span>Completely interferes</span>
+                                                    </label><br>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label><span>G. Enjoyment of life</span>
+                                    </label>
+                                    <div class="questiongroup ">
+                                        <div class=row>
+                                            <div class=col>
+                                                <fieldset class="subquestions">
+                                                    <label>
+                                                        <span>Does not Interfere</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="0" required>
+                                                        <span class="checkmark no-dot">0</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="1">
+                                                        <span class="checkmark no-dot">1</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="2">
+                                                        <span class="checkmark no-dot">2</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="3">
+                                                        <span class="checkmark no-dot">3</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="4">
+                                                        <span class="checkmark no-dot">4</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="5">
+                                                        <span class="checkmark no-dot">5</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="6">
+                                                        <span class="checkmark no-dot">6</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="7">
+                                                        <span class="checkmark no-dot">7</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="8">
+                                                        <span class="checkmark no-dot">8</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="9">
+                                                        <span class="checkmark no-dot">9</span>
+                                                    </label><br>
+                                                    <label class="radiobuttons">
+                                                        <input type="radio" name="enjoyment" value="10">
+                                                        <span class="checkmark no-dot">10</span>
+                                                    </label><br><br>
+                                                    <label>
+                                                        <span>Completely interferes</span>
+                                                    </label><br>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div style='display:flex;justify-content: space-between;'>
+                                    <button type=submit d=-1 class="btn btn-primary btn-lg">Previous</button>
+                                    <button type=submit id="submit__ID" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
             </div>
-         </div>
         </div>
-      </div>
-  </div>
-  <script>
-      function F__ID(){
-          //-------------------------------------
-          VmInclude:__COMPONENT__/f/form.01.js
-          VmInclude:__CURRENT_PATH__/shared-form.js
-          //-------------------------------------
-          var before_submit=m.before_submit;
-            m.before_submit=function(data,index){
-              for(p in body_data){
-                data[p.split('_')[0]]=body_data[p];
-              }
-              data["x"]=body_data_x_id;
-              return before_submit(data,index);
-          }
-          //-------------------------------------
-          var body_data={}
-          var body_data_x_id="";
-          //-------------------------------------
-          $('.bb__ID, .sb__ID, .lb__ID').on('click',function(){
-              var id=$(this).attr('id');
-              var v=body_data[id];  if(v==undefined) v=0;
-              if(v==0){ 
-                v=1;  
-                $(this).addClass('shade__ID');
-              }
-              else{
-                v=0;
-                $(this).removeClass('shade__ID');
-              }
-              body_data[id]=v;
-          })
-          //-------------------------------------
-          $('.bb__ID, .sb__ID, .lb__ID').on('dblclick',function(e){
-              //e.stopPropagation();
-              //e.preventDefault();
-              var id=$(this).attr('id');
-              if( $('#'+id).hasClass( "shade__ID" )){
-                $('.bb__ID, .sb__ID, .lb__ID').html('');
-                $(this).html('X');
-                body_data_x_id=id;
-
-              }
-          })
-          //-------------------------------------
-          $('#D__ID').on('load',function(){
-            body_data={};
-            body_data_x_id="";
-            $('.bb__ID, .sb__ID, .lb__ID').removeClass('shade__ID');
-            $('.bb__ID, .sb__ID, .lb__ID').html('');
-            
-            var record=m.input.record;
-            for(p in record.Data){
-                if(p[0]=='f'){
-                    if(record.Data[p]==1){
-                        $('#'+p+"__ID").addClass('shade__ID');
-                        body_data[p+"__ID"]=record.Data[p];
+    </div>
+    <script>
+        function F__ID() {
+            //-------------------------------------
+            VmInclude: '__COMPONENT__/f/form.01.js'
+            VmInclude: '__CURRENT_PATH__/shared-form.js'
+            //-------------------------------------
+            var N = 5;
+            var current_I = 1;
+            //-------------------------------
+            $('#F__ID button').on('click', function (event) {
+                //Active only for Previous page
+                var d = $(this).attr("d");
+                d = parseInt(d);
+                if (d < 0) show_section(current_I - 1);
+            })
+            //---------------------------------------
+            var show_section = function (I) {
+                for (var i = 1; i <= N; i++) {
+                    $('#page' + i + "__ID").hide(); // remove/add '//' for Test mode/Production mode 
+                    $('#page' + i + "__ID * ").attr('disabled', 'disabled');
+                }
+                if (I < 1) { I = 1; $('#page' + I + '__ID').show(); }
+                if (I >= N) I = N;
+                $('#page' + I + '__ID').show();
+                $('#page' + I + "__ID * ").removeAttr('disabled');
+                current_I = I;
+                $(window).scrollTop(0);
+            }
+            //-------------------------------------
+            var old_submit = m.submit;
+            m.submit = function (event) {
+                event.preventDefault();
+                if(current_I == 1){
+                    if($('#F__ID input[name=pain]:checked').val()=='0'){
+                        $('#F__ID *').removeAttr('disabled');
+                        $('#submit1__ID').hide();
+                        old_submit(event);
                     }
                 }
+                if (current_I == N) {
+                    $('#F__ID *').removeAttr('disabled');
+                    $('#submit1__ID').hide();
+                    old_submit(event);
+                }
+                else {
+                    show_section(current_I + 1)
+                }
             }
-            var x=record.Data.x;
-            body_data_x_id=x;
-            $('#'+x+"__ID").html('X');
-          })
-          //-------------------------------------
+            //-------------------------------------
+            var before_submit = m.before_submit;
+            m.before_submit = function (data, index) {
+                var pain_front = "";
+                var pain_back = "";
+                for (p in body_data) {
+                    //console.log("value:"+body_data[p])
+                    if (body_data[p] > 0) {
+                        if (p.split('_')[1] == "front") {
+                            if (pain_front != "") {
+                                pain_front = pain_front.concat(",")
+                            }
+                            pain_front = pain_front.concat(p.split('_')[2])
+                            console.log("front: " + p + ' - ' + pain_front)
+                        }
+                        else if (p.split('_')[1] == "back") {
+                            if (pain_back != "") {
+                                pain_back = pain_back.concat(",")
+                            }
+                            pain_back = pain_back.concat(p.split('_')[2])
+                            console.log("back: " + p + ' - ' + pain_back)
+                        }
+                    }
+                }
+                data["pain_front"] = pain_front;
+                data["pain_back"] = pain_back;
+                if(body_data_x_id!=''){
+                    var mxp = body_data_x_id.split("_")
+                    data["max_pain"] = mxp[1] + "_" + mxp[2];
+                }
+                else data["max_pain"]=''
+                return before_submit(data, index);
+            }
+            //-------------------------------------
+            var body_data = {}
+            var body_data_x_id = "";
+            //-------------------------------------
+            $('.bb__ID, .sb__ID, .lb__ID').on('click', function () {
+                var id = $(this).attr('id');
+                var v = body_data[id]; if (v == undefined) v = 0;
+                if (v == 0) {
+                    v = 1;
+                    $(this).addClass('shade__ID');
+                }
+                else if (v == 1) {
+                    v = 2;
+                    $('.bb__ID, .sb__ID, .lb__ID').html('');
+                    $(this).html('X');
+                    $(this).css('color', 'red');
+                    body_data[body_data_x_id] = 1;
+                    body_data_x_id = id;
+                    //console.log(body_data_x_id)
+                }
+                else {
+                    v = 0;
+                    $(this).removeClass('shade__ID');
+                    $(this).html('');
+                    body_data_x_id = "";
+                }
+                body_data[id] = v;
+                //console.log(JSON.stringify(body_data))
+
+
+            })
+            //-------------------------------------
+            $('#D__ID').on('load', function () {
+                body_data = {};
+                body_data_x_id = "";
+                $('.bb__ID, .sb__ID, .lb__ID').removeClass('shade__ID');
+                var record = m.input.record;
+                //console.log(m.input.record)
+                if (record != undefined) {
+                    var front_pain = record.Data.pain_front.split(",")
+                    console.log(front_pain)
+                    for (p in front_pain) {
+                        console.log(p)
+
+                        $('#z_front_' + front_pain[p] + "__ID").addClass('shade__ID');
+                        body_data["z_front_" + front_pain[p] + "__ID"] = 1;
+                    }
+                    //console.log(body_data)
+                    var back_pain = record.Data.pain_back.split(",")
+                    for (p in back_pain) {
+                        $('#z_back_' + back_pain[p] + "__ID").addClass('shade__ID');
+                        body_data["z_back_" + back_pain[p] + "__ID"] = 1;
+                    }
+                    var x = record.Data.max_pain;
+                    body_data_x_id = "z_" + x + "__ID";
+                    $("#z_" + x + "__ID").html('X');
+                    $("#z_" + x + "__ID").css('color', 'red');
+                }
+                else {
+                    $('.bb__ID, .sb__ID, .lb__ID').html('');
+                }
+                show_section(1);
+            })
+            //-------------------------------------
         }
-  </script>
-  <style>
-      #D__ID .mt-95 {
-        max-width:600px;
-      }
-      VmInclude:__CURRENT_PATH__/wappsystem-form.css
-  </style>
+    </script>
+    <style>
+        .bb__ID {
+            width: 42px;
+            height: 42px;
+            border: 1px solid grey;
+            position: absolute;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+
+        .lb__ID {
+            width: 34px;
+            height: 42px;
+            border: 1px solid grey;
+            position: absolute;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+
+        .sb__ID {
+            width: 24px;
+            height: 22px;
+            border: 1px solid grey;
+            position: absolute;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+
+        .shade__ID {
+            background-color: #888;
+            opacity: 50%;
+        }
+
+        #bpi__ID {
+            position: relative;
+            width: 607px;
+            height: 398px;
+            border: 1px solid grey;
+            _background-size: cover;
+            _background-repeat: repeat-x;
+            _background-position: center top;
+            _background-attachment: fixed;
+            background-image: url(__CURRENT_PATH__/bpi.png)
+        }
+
+        #z_front_1__ID {
+            top: 26px;
+            left: 147px;
+        }
+
+        #z_front_2__ID {
+            top: 68px;
+            left: 91px;
+        }
+
+        #z_front_3__ID {
+            top: 68px;
+            left: 132px;
+        }
+
+        #z_front_4__ID {
+            top: 68px;
+            left: 156px;
+        }
+
+        #z_front_5__ID {
+            top: 68px;
+            left: 180px;
+        }
+
+        #z_front_6__ID {
+            top: 68px;
+            left: 203px;
+        }
+
+        #z_front_7__ID {
+            top: 90px;
+            left: 132px;
+        }
+
+        #z_front_8__ID {
+            top: 90px;
+            left: 156px;
+        }
+
+        #z_front_9__ID {
+            top: 90px;
+            left: 180px;
+        }
+
+        #z_front_10__ID {
+            top: 110px;
+            left: 91px;
+        }
+
+        #z_front_11__ID {
+            top: 110px;
+            left: 203px;
+        }
+
+        #z_front_12__ID {
+            top: 112px;
+            left: 132px;
+        }
+
+        #z_front_13__ID {
+            top: 112px;
+            left: 156px;
+        }
+
+        #z_front_14__ID {
+            top: 112px;
+            left: 180px;
+        }
+
+        #z_front_15__ID {
+            top: 134px;
+            left: 132px;
+        }
+
+        #z_front_16__ID {
+            top: 134px;
+            left: 156px;
+        }
+
+        #z_front_17__ID {
+            top: 134px;
+            left: 180px;
+        }
+
+        #z_front_18__ID {
+            top: 152px;
+            left: 91px;
+        }
+
+        #z_front_19__ID {
+            top: 152px;
+            left: 203px;
+        }
+
+        #z_front_20__ID {
+            top: 156px;
+            left: 132px;
+        }
+
+        #z_front_21__ID {
+            top: 156px;
+            left: 156px;
+        }
+
+        #z_front_22__ID {
+            top: 156px;
+            left: 180px;
+        }
+
+        #z_front_23__ID {
+            top: 178px;
+            left: 132px;
+        }
+
+        #z_front_24__ID {
+            top: 178px;
+            left: 156px;
+        }
+
+        #z_front_25__ID {
+            top: 178px;
+            left: 180px;
+        }
+
+        #z_front_26__ID {
+            top: 194px;
+            left: 91px;
+        }
+
+        #z_front_27__ID {
+            top: 194px;
+            left: 203px;
+        }
+
+        #z_front_28__ID {
+            top: 200px;
+            left: 132px;
+        }
+
+        #z_front_29__ID {
+            top: 200px;
+            left: 156px;
+        }
+
+        #z_front_30__ID {
+            top: 200px;
+            left: 180px;
+        }
+
+        #z_front_31__ID {
+            top: 220px;
+            left: 132px;
+        }
+
+        #z_front_32__ID {
+            top: 220px;
+            left: 167px;
+        }
+
+        #z_front_33__ID {
+            top: 262px;
+            left: 126px;
+        }
+
+        #z_front_34__ID {
+            top: 262px;
+            left: 167px;
+        }
+
+        #z_front_35__ID {
+            top: 304px;
+            left: 126px;
+        }
+
+        #z_front_36__ID {
+            top: 304px;
+            left: 167px;
+        }
+
+        #z_front_37__ID {
+            top: 346px;
+            left: 126px;
+        }
+
+        #z_front_38__ID {
+            top: 346px;
+            left: 167px;
+        }
+
+        #z_back_1__ID {
+            top: 24px;
+            left: 419px;
+        }
+
+        #z_back_2__ID {
+            top: 66px;
+            left: 475px;
+        }
+
+        #z_back_3__ID {
+            top: 66px;
+            left: 452px;
+        }
+
+        #z_back_4__ID {
+            top: 66px;
+            left: 428px;
+        }
+
+        #z_back_5__ID {
+            top: 66px;
+            left: 404px;
+        }
+
+        #z_back_6__ID {
+            top: 66px;
+            left: 363px;
+        }
+
+        #z_back_7__ID {
+            top: 88px;
+            left: 452px;
+        }
+
+        #z_back_8__ID {
+            top: 88px;
+            left: 428px;
+        }
+
+        #z_back_9__ID {
+            top: 88px;
+            left: 404px;
+        }
+
+        #z_back_10__ID {
+            top: 108px;
+            left: 475px;
+        }
+
+        #z_back_11__ID {
+            top: 108px;
+            left: 363px;
+        }
+
+        #z_back_12__ID {
+            top: 110px;
+            left: 452px;
+        }
+
+        #z_back_13__ID {
+            top: 110px;
+            left: 428px;
+        }
+
+        #z_back_14__ID {
+            top: 110px;
+            left: 404px;
+        }
+
+        #z_back_15__ID {
+            top: 132px;
+            left: 452px;
+        }
+
+        #z_back_16__ID {
+            top: 132px;
+            left: 428px;
+        }
+
+        #z_back_17__ID {
+            top: 132px;
+            left: 404px;
+        }
+
+        #z_back_18__ID {
+            top: 150px;
+            left: 475px;
+        }
+
+        #z_back_19__ID {
+            top: 150px;
+            left: 363px;
+        }
+
+        #z_back_20__ID {
+            top: 154px;
+            left: 452px;
+        }
+
+        #z_back_21__ID {
+            top: 154px;
+            left: 428px;
+        }
+
+        #z_back_22__ID {
+            top: 154px;
+            left: 404px;
+        }
+
+        #z_back_23__ID {
+            top: 176px;
+            left: 452px;
+        }
+
+        #z_back_24__ID {
+            top: 176px;
+            left: 428px;
+        }
+
+        #z_back_25__ID {
+            top: 176px;
+            left: 404px;
+        }
+
+        #z_back_26__ID {
+            top: 192px;
+            left: 475px;
+        }
+
+        #z_back_27__ID {
+            top: 192px;
+            left: 363px;
+        }
+
+        #z_back_28__ID {
+            top: 198px;
+            left: 452px;
+        }
+
+        #z_back_29__ID {
+            top: 198px;
+            left: 428px;
+        }
+
+        #z_back_30__ID {
+            top: 198px;
+            left: 404px;
+        }
+
+        #z_back_31__ID {
+            top: 218px;
+            left: 439px;
+        }
+
+        #z_back_32__ID {
+            top: 218px;
+            left: 404px;
+        }
+
+        #z_back_33__ID {
+            top: 260px;
+            left: 439px;
+        }
+
+        #z_back_34__ID {
+            top: 260px;
+            left: 398px;
+        }
+
+        #z_back_35__ID {
+            top: 302px;
+            left: 439px;
+        }
+
+        #z_back_36__ID {
+            top: 302px;
+            left: 398px;
+        }
+
+        #z_back_37__ID {
+            top: 344px;
+            left: 439px;
+        }
+
+        #z_back_38__ID {
+            top: 344px;
+            left: 398px;
+        }
+    </style>
+
+    <style>
+        #D__ID .mt-95 {
+            max-width: 600px;
+        }
+
+        VmInclude:__CURRENT_PATH__/wappsystem-form.css
+    </style>
 </div>
