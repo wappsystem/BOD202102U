@@ -29,6 +29,8 @@
         "c19-yrs-data":                  {url:"$H/m/library/c19-yrs-data.html",Table:"c19-yrs-bod1",form_module:"c19-yrs-form",task_name:"Screening - COVID-19 Yorkshire Rehabilitation Scale (C19-YRS)"},
         "c19-yrs-form":                  {url:"$H/m/library/c19-yrs-form.html",Table:"c19-yrs-bod1",task_name:"Screening - COVID-19 Yorkshire Rehabilitation Scale (C19-YRS)"},
 
+        "visit-bl-data":                  {url:"$H/m/library/date-data.html",Table:"visit-bl-bod1",form_module:"visit-bl-form",task_name:"Baseline - Visit date"},
+        "visit-bl-form":                  {url:"$H/m/library/date-form.html",Table:"visit-bl-bod1",task_name:"Baseline - Visit date"},
         "drug-dose-bl-data":                  {url:"$H/m/library/drug-dose-data.html",Table:"drug-dose-bl-bod1",form_module:"drug-dose-bl-form",task_name:"Baseline - Drug dose and details related to their treatment plan"},
         "drug-dose-bl-form":                  {url:"$H/m/library/drug-dose-form.html",Table:"drug-dose-bl-bod1",task_name:"Baseline - Drug dose and details related to their treatment plan"},
         "fss-bl-data":                  {url:"$H/m/library/fss-data.html",Table:"fss-bl-bod1",form_module:"fss-bl-form",task_name:"Baseline - Fatigue Severity Scale (FSS)"},
@@ -42,6 +44,8 @@
         "psqi-bl-data":                  {url:"$H/m/library/psqi-data.html",Table:"psqi-bl-bod1",form_module:"psqi-bl-form",task_name:"Baseline - Pittsburgh Sleep Quality Index (PSQI)"},
         "psqi-bl-form":                  {url:"$H/m/library/psqi-form.html",Table:"psqi-bl-bod1",task_name:"Baseline - Pittsburgh Sleep Quality Index (PSQI)"},
 
+        "visit-1-data":                  {url:"$H/m/library/date-data.html",Table:"visit-1-bod1",form_module:"visit-1-form",task_name:"Month 1 - Visit date"},
+        "visit-1-form":                  {url:"$H/m/library/date-form.html",Table:"visit-1-bod1",task_name:"Month 1 - Visit date"},
         "drug-dose-1-data":                  {url:"$H/m/library/drug-dose-data.html",Table:"drug-dose-1-bod1",form_module:"drug-dose-1-form",task_name:"Month 1 - Drug dose and details related to their treatment plan"},
         "drug-dose-1-form":                  {url:"$H/m/library/drug-dose-form.html",Table:"drug-dose-1-bod1",task_name:"Month 1 - Drug dose and details related to their treatment plan"},
         "fss-1-data":                  {url:"$H/m/library/fss-data.html",Table:"fss-1-bod1",form_module:"fss-1-form",task_name:"Month 1 - Fatigue Severity Scale (FSS)"},
@@ -55,6 +59,8 @@
         "psqi-1-data":                  {url:"$H/m/library/psqi-data.html",Table:"psqi-1-bod1",form_module:"psqi-1-form",task_name:"Month 1 - Pittsburgh Sleep Quality Index (PSQI)"},
         "psqi-1-form":                  {url:"$H/m/library/psqi-form.html",Table:"psqi-1-bod1",task_name:"Month 1 - Pittsburgh Sleep Quality Index (PSQI)"},
 
+        "visit-2-data":                  {url:"$H/m/library/date-data.html",Table:"visit-2-bod1",form_module:"visit-2-form",task_name:"Month 2 - Visit date"},
+        "visit-2-form":                  {url:"$H/m/library/date-form.html",Table:"visit-2-bod1",task_name:"Month 2 - Visit date"},
         "drug-dose-2-data":                  {url:"$H/m/library/drug-dose-data.html",Table:"drug-dose-2-bod1",form_module:"drug-dose-2-form",task_name:"Month 2 - Drug dose and details related to their treatment plan"},
         "drug-dose-2-form":                  {url:"$H/m/library/drug-dose-form.html",Table:"drug-dose-2-bod1",task_name:"Month 2 - Drug dose and details related to their treatment plan"},
         "fss-2-data":                  {url:"$H/m/library/fss-data.html",Table:"fss-2-bod1",form_module:"fss-2-form",task_name:"Month 2 - Fatigue Severity Scale (FSS)"},
@@ -68,6 +74,8 @@
         "psqi-2-data":                  {url:"$H/m/library/psqi-data.html",Table:"psqi-2-bod1",form_module:"psqi-2-form",task_name:"Month 2 - Pittsburgh Sleep Quality Index (PSQI)"},
         "psqi-2-form":                  {url:"$H/m/library/psqi-form.html",Table:"psqi-2-bod1",task_name:"Month 2 - Pittsburgh Sleep Quality Index (PSQI)"},
 
+        "visit-3-data":                  {url:"$H/m/library/date-data.html",Table:"visit-3-bod1",form_module:"visit-3-form",task_name:"Month 3 - Visit date"},
+        "visit-3-form":                  {url:"$H/m/library/date-form.html",Table:"visit-3-bod1",task_name:"Month 3 - Visit date"},
         "drug-dose-3-data":                  {url:"$H/m/library/drug-dose-data.html",Table:"drug-dose-3-bod1",form_module:"drug-dose-3-form",task_name:"Month 3 - Drug dose and details related to their treatment plan"},
         "drug-dose-3-form":                  {url:"$H/m/library/drug-dose-form.html",Table:"drug-dose-3-bod1",task_name:"Month 3 - Drug dose and details related to their treatment plan"},
         "fss-3-data":                  {url:"$H/m/library/fss-data.html",Table:"fss-3-bod1",form_module:"fss-3-form",task_name:"Month 3 - Fatigue Severity Scale (FSS)"},
@@ -81,6 +89,8 @@
         "psqi-3-data":                  {url:"$H/m/library/psqi-data.html",Table:"psqi-3-bod1",form_module:"psqi-3-form",task_name:"Month 3 - Pittsburgh Sleep Quality Index (PSQI)"},
         "psqi-3-form":                  {url:"$H/m/library/psqi-form.html",Table:"psqi-3-bod1",task_name:"Month 3 - Pittsburgh Sleep Quality Index (PSQI)"},
 
+        "visit-4-data":                  {url:"$H/m/library/date-data.html",Table:"visit-4-bod1",form_module:"visit-4-form",task_name:"Month 4 - Visit date"},
+        "visit-4-form":                  {url:"$H/m/library/date-form.html",Table:"visit-4-bod1",task_name:"Month 4 - Visit date"},
         "drug-dose-4-data":                  {url:"$H/m/library/drug-dose-data.html",Table:"drug-dose-4-bod1",form_module:"drug-dose-4-form",task_name:"Month 4 - Drug dose and details related to their treatment plan"},
         "drug-dose-4-form":                  {url:"$H/m/library/drug-dose-form.html",Table:"drug-dose-4-bod1",task_name:"Month 4 - Drug dose and details related to their treatment plan"},
         "fss-4-data":                  {url:"$H/m/library/fss-data.html",Table:"fss-4-bod1",form_module:"fss-4-form",task_name:"Month 4 - Fatigue Severity Scale (FSS)"},
@@ -94,6 +104,8 @@
         "psqi-4-data":                  {url:"$H/m/library/psqi-data.html",Table:"psqi-4-bod1",form_module:"psqi-4-form",task_name:"Month 4 - Pittsburgh Sleep Quality Index (PSQI)"},
         "psqi-4-form":                  {url:"$H/m/library/psqi-form.html",Table:"psqi-4-bod1",task_name:"Month 4 - Pittsburgh Sleep Quality Index (PSQI)"},
 
+        "visit-5-data":                  {url:"$H/m/library/date-data.html",Table:"visit-5-bod1",form_module:"visit-5-form",task_name:"Month 5 - Visit date"},
+        "visit-5-form":                  {url:"$H/m/library/date-form.html",Table:"visit-5-bod1",task_name:"Month 5 - Visit date"},
         "drug-dose-5-data":                  {url:"$H/m/library/drug-dose-data.html",Table:"drug-dose-5-bod1",form_module:"drug-dose-5-form",task_name:"Month 5 - Drug dose and details related to their treatment plan"},
         "drug-dose-5-form":                  {url:"$H/m/library/drug-dose-form.html",Table:"drug-dose-5-bod1",task_name:"Month 5 - Drug dose and details related to their treatment plan"},
         "fss-5-data":                  {url:"$H/m/library/fss-data.html",Table:"fss-5-bod1",form_module:"fss-5-form",task_name:"Month 5 - Fatigue Severity Scale (FSS)"},
@@ -107,6 +119,8 @@
         "psqi-5-data":                  {url:"$H/m/library/psqi-data.html",Table:"psqi-5-bod1",form_module:"psqi-5-form",task_name:"Month 5 - Pittsburgh Sleep Quality Index (PSQI)"},
         "psqi-5-form":                  {url:"$H/m/library/psqi-form.html",Table:"psqi-5-bod1",task_name:"Month 5 - Pittsburgh Sleep Quality Index (PSQI)"},
 
+        "visit-6-data":                  {url:"$H/m/library/date-data.html",Table:"visit-6-bod1",form_module:"visit-6-form",task_name:"Month 6 - Visit date"},
+        "visit-6-form":                  {url:"$H/m/library/date-form.html",Table:"visit-6-bod1",task_name:"Month 6 - Visit date"},
         "drug-dose-6-data":                  {url:"$H/m/library/drug-dose-data.html",Table:"drug-dose-6-bod1",form_module:"drug-dose-6-form",task_name:"Month 6 - Drug dose and details related to their treatment plan"},
         "drug-dose-6-form":                  {url:"$H/m/library/drug-dose-form.html",Table:"drug-dose-6-bod1",task_name:"Month 6 - Drug dose and details related to their treatment plan"},
         "fss-6-data":                  {url:"$H/m/library/fss-data.html",Table:"fss-6-bod1",form_module:"fss-6-form",task_name:"Month 6 - Fatigue Severity Scale (FSS)"},
@@ -120,6 +134,8 @@
         "psqi-6-data":                  {url:"$H/m/library/psqi-data.html",Table:"psqi-6-bod1",form_module:"psqi-6-form",task_name:"Month 6 - Pittsburgh Sleep Quality Index (PSQI)"},
         "psqi-6-form":                  {url:"$H/m/library/psqi-form.html",Table:"psqi-6-bod1",task_name:"Month 6 - Pittsburgh Sleep Quality Index (PSQI)"},
 
+        "visit-eos-data":                  {url:"$H/m/library/date-data.html",Table:"visit-eos-bod1",form_module:"visit-eos-form",task_name:"End of Study - Visit date"},
+        "visit-eos-form":                  {url:"$H/m/library/date-form.html",Table:"visit-eos-bod1",task_name:"End of Study - Visit date"},
         "drug-dose-eos-data":                  {url:"$H/m/library/drug-dose-data.html",Table:"drug-dose-eos-bod1",form_module:"drug-dose-eos-form",task_name:"End of Study - Drug dose and details related to their treatment plan"},
         "drug-dose-eos-form":                  {url:"$H/m/library/drug-dose-form.html",Table:"drug-dose-eos-bod1",task_name:"End of Study - Drug dose and details related to their treatment plan"},
         "fss-eos-data":                  {url:"$H/m/library/fss-data.html",Table:"fss-eos-bod1",form_module:"fss-eos-form",task_name:"End of Study - Fatigue Severity Scale (FSS)"},
